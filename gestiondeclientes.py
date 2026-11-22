@@ -18,11 +18,11 @@ log = logging.getLogger("SoftwareFJ")
 
 #  EXCEPCIONES PROPIAS
 class ErrorSistema(Exception):
-    """Excepción base del sistema."""
+    pass
 
 
 class ClienteInvalidoError(ErrorSistema):
-    """Datos de cliente inválidos."""
+    """Error"""
 
 
 class ServicioInvalidoError(ErrorSistema):
@@ -34,11 +34,11 @@ class ServicioNoDisponibleError(ErrorSistema):
 
 
 class ReservaInvalidaError(ErrorSistema):
-    """Operación de reserva no permitida."""
+    pass
 
 
 class CalculoInconsistenteError(ErrorSistema):
-    """Cálculo de costos con valores inconsistentes."""
+    pass
 
 
 #  CLASE ABSTRACTA
