@@ -264,7 +264,7 @@ class Reserva(Entidad):
                 f"{self._servicio.nombre} | {self._horas}h | {self._estado}")
 
 
-# SIMULACIÓN
+# SIMULACION
 def ejecutar(descripcion, accion):
     """Ejecuta una operación; si falla, registra el error y el programa continúa."""
     print(f"\n>> {descripcion}")
