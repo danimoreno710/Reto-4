@@ -292,9 +292,9 @@ def main():
     c1 = ejecutar("1. Registrar cliente válido",
                   lambda: Cliente(1, "Daniel Moreno", "danielmoreno200410@gmail.com", "3148561626"))
     c2 = ejecutar("2. Registrar cliente con correo inválido",
-                  lambda: Cliente(2, "Luis Pérez", "luis-correo", "3109876543"))
+                  lambda: Cliente(2, "Andres Merchan", "Andres@gamil", "3109876543"))
     c3 = ejecutar("3. Registrar cliente con teléfono inválido",
-                  lambda: Cliente(3, "Marta Ruiz", "marta@correo.com", "123"))
+                  lambda: Cliente(3, "Marta Ruiz", "marta@gmail", "123"))
     clientes.extend(c for c in (c1, c2, c3) if c)
 
     # 4-6: Servicios
