@@ -285,7 +285,7 @@ def ejecutar(descripcion, accion):
 
 
 def main():
-    log.info("===== INICIO DE LA SIMULACIÓN =====")
+    log.info("INICIO")
     clientes, servicios, reservas = [], [], []
 
     # 1-3: Clientes
