@@ -64,7 +64,7 @@ class Entidad(ABC):
 class Cliente(Entidad):
     def __init__(self, id_cliente, nombre, correo, telefono):
         super().__init__(id_cliente)
-        self.nombre = nombre      # usa los setters con validación
+        self.nombre = nombre      # asigna con el metodo setter, que valida
         self.correo = correo
         self.telefono = telefono
 
